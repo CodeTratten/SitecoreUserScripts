@@ -2,6 +2,7 @@
 // @name         Sort Sitecore cache admin
 // @namespace    http://tampermonkey.net/
 // @version      0.1
+// @description  In sitecore cache admin page, the table sorted by Name.
 // @match        */sitecore/admin/cache.aspx
 // @match        */ui/c.aspx
 // @grant        none

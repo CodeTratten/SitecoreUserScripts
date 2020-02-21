@@ -2,7 +2,8 @@
 // @name         Update address for each selected item.
 // @namespace    http://tampermonkey.net/
 // @version      0.1
-// @description  try to take over the world!
+// @description  When selecting an item in the content editor the browser's address is updated with a deep link to the item.
+// @description  The selected item's language is not included in the address.
 // @author       You
 // @match        */sitecore/shell/Applications/Content%20Editor.aspx*
 // @grant        none
