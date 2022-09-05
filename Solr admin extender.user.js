@@ -25,7 +25,6 @@ function documentKeyUp(e){
 	if(!isWatchElement(src)){
 		return;
 	}
-
 	if(!isObservedKey(e)){
 		return;
 	}
@@ -65,7 +64,7 @@ function showOtherMatches(src, matches){
 	outer.innerHTML = html;
 }
 
-//Hadles tab to insert the suggested word.
+//Handles tab to insert the suggested word.
 function documentKeyDown(e){
 	if(e.keyCode != 9){
 		return;
