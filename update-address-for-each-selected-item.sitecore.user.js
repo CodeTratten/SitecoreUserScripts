@@ -18,7 +18,8 @@
         return e.target.closest('.scContentTreeNode') ?? null;
     };
     window.getActiveDb = function(){
-        var val = document.getElementById("__CurrentItem").value        return val.split('/')[2];
+        var val = document.getElementById("__CurrentItem").value        
+        return val.split('/')[2];
     };
     window.getItemIdFromTreeNode = function(node){
         var a = node.querySelector('a');
